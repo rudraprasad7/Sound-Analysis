@@ -1,0 +1,5 @@
+paho-mqtt>=2.0,<3
+adafruit-blinka
+adafruit-circuitpython-bmp280
+adafruit-circuitpython-scd4x
+RPi.GPIO

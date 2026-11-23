@@ -1,0 +1,15 @@
+/dev/serial0
+115200
+connect "/home/piuser/RPi_SIM7600_Live_Experiment/raspberry_pi/ppp-chat-connect"
+noauth
+defaultroute
+usepeerdns
+persist
+nodetach
+lock
+nocrtscts
+local
+ipcp-accept-local
+ipcp-accept-remote
+lcp-echo-interval 30
+lcp-echo-failure 4
