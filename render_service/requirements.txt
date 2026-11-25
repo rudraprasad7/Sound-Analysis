@@ -1,0 +1,12 @@
+flask
+gunicorn
+numpy
+scipy
+scikit-learn
+joblib
+librosa
+soundfile
+matplotlib
+ai-edge-litert
+supabase          # Uncomment when enabling Supabase Storage uploads
+python-dotenv     # Uncomment when enabling local .env for Supabase Storage

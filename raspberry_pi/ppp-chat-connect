@@ -1,0 +1,9 @@
+#!/bin/sh
+# SIM7600 PPP dial-up sequence. Verify APN and UART port before use.
+exec /usr/sbin/chat -v \
+  TIMEOUT 10 \
+  ABORT 'BUSY' ABORT 'NO CARRIER' ABORT 'NO DIALTONE' ABORT 'ERROR' \
+  '' AT \
+  OK 'AT+CGDCONT=1,"IP","jionet"' \
+  OK 'ATD*99#' \
+  CONNECT ''
